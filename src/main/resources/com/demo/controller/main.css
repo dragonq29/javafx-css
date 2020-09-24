@@ -1,0 +1,86 @@
+
+.top-color-table-view {
+    -fx-border-color:#477A5D #B3B9BF #B3B9BF;
+    -fx-border-width:3 1 1 1;
+    -fx-font-family: "Roboto";
+}
+
+.top-color-table-view:focused {
+    -fx-background-color: transparent,-fx-box-border,-fx-control-inner-background;
+}
+
+.top-color-table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-border-color:#B3B9BF;
+    -fx-border-width:0 1 0 0;
+    -fx-border-style: segments(0, 2, 50, 15);
+}
+
+.top-color-table-view .column-header-background {
+    -fx-background-color: white;
+    -fx-border-width:0 0 1 0;
+    -fx-border-style:solid;
+    -fx-border-color:#B3B9BF;
+    -fx-padding: 3 0 3 10;
+}
+
+.top-color-table-view .column-header:last-visible {
+    -fx-border-color:transparent;
+}
+
+.top-color-table-view .filler {
+    -fx-opacity:0;
+}
+
+.top-color-table-view .table-row-cell {
+    -fx-cell-size: 29px;
+}
+
+.top-color-table-view .table-column {
+    -fx-border-color:transparent;
+    -fx-alignment:center_left;
+    -fx-padding: 0 0 0 15;
+
+}
+
+.top-color-table-view .table-column .label {
+    -fx-text-fill: #2F4D3C;
+    -fx-font-weight:bold;
+    -fx-font-size:14px;
+    -fx-alignment:center_left;
+}
+
+.top-color-table-view .table-row-cell:odd {
+    -fx-background-color: -fx-table-cell-border-color, #EDF0EE;
+}
+
+.top-color-table-view .table-row-cell:selected {
+   -fx-background-color: #36B36A;
+}
+
+.top-color-table-view .table-row-cell:selected .text {
+    -fx-fill: white;
+}
+.top-color-table-view .table-row-cell:selected .secondary-button .text {
+    -fx-fill: black;
+}
+
+.top-color-table-view > .virtual-flow > .scroll-bar:vertical,
+.top-color-table-view > .virtual-flow > .scroll-bar:horizontal {
+    -fx-padding:-12;
+}
+
+
+.top-color-table-view > .virtual-flow > .scroll-bar:vertical > .thumb {
+    visibility: true;
+    -fx-background-color:#B3B9BF;
+    -fx-background-radius: 11em;
+    -fx-background-insets:0 3.5 0 3.5;
+}
+
+.top-color-table-view > .virtual-flow > .scroll-bar:horizontal > .thumb {
+    visibility: true;
+    -fx-background-color:#B3B9BF;
+    -fx-background-radius: 11em;
+    -fx-background-insets:3.5 0 3.5 0;
+}

@@ -1,0 +1,37 @@
+.root {
+    -fx-font-family: "NanumBarunGothic";
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-background-color: #A0A6AC;
+    -fx-font-smoothing-type: gray;
+}
+
+.text {
+  -fx-font-smoothing-type: gray;
+}
+
+.primary-button {
+    -fx-text-fill:white;
+    -fx-background-radius: 2 2 2 2;
+    -fx-border-radius: 2 2 2 2;
+    -fx-background-color:#36B36A;
+    -fx-background-insets: 0;
+    -fx-border-width : 0.8;
+    -fx-border-color : #3D9963;
+    -fx-font-family: "NanumBarunGothic";
+    -fx-font-weight: bold;
+    -fx-font-size : 14;
+}
+
+.secondary-button {
+    -fx-background-color:white;
+    -fx-border-color : #3D9963;
+    -fx-border-width : 0.8;
+    -fx-background-radius: 2 2 2 2;
+    -fx-border-radius: 2 2 2 2;
+    -fx-background-insets: 0;
+    -fx-font-family: "NanumBarunGothic";
+    -fx-text-fill:#317A50;
+    -fx-font-weight: bold;
+    -fx-font-size : 14;
+}
